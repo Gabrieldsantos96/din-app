@@ -1,0 +1,58 @@
+.filter_container {
+  position:sticky;
+
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  padding: 25px;
+}
+
+.filter_container h4 {
+color: #B9B9B9;
+padding-left: 10px;
+margin-bottom: 10px;
+}
+
+.filter_contain_Items button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_contain_Items {
+  max-width: 900px;
+  max-height: 205px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn_filter_active {
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+
+  padding: 8px;
+  margin: 5px;
+
+  color: white;
+  background-color:#6460FB;
+}
+
+
+.btn_filter_inactive {
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+
+  padding: 5px;
+  margin: 5px;
+
+  color:black;
+  background-color: rgb(241, 236, 236);
+}

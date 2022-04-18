@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family:'Lato',sans-serif;
+  display:flex;
+  width: 100vw;
+  min-height: 100vh; 
+}
+
+.line {
+  height:1px;
+  width:85%;
+  background-color: #EAEAEA;
+}
+
+.general_container {
+  background-color: rgba(3, 3, 3, 0.5);
+
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.modal {
+  width: 600px;
+  height: 70vh;
+  background: #FFFFFF;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.general_modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0px 64px;
+
+ 
+}
+
+.general_modal img {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+
+  width: 30px;
+  height: 30px;
+}
+
+.general_modal h2 {
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.align_text {
+  width: 82px;
+  max-width: 82px;
+  text-align: center;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input {
+  padding-inline: 2px;
+}
+
+.btn_purple {
+  background-color: #7978D9;
+  color: white;
+
+  text-align: center;
+  border-radius: 5px;
+}
+
+.error_message {
+  color: rgb(180, 15, 15);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

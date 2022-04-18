@@ -1,0 +1,30 @@
+.transaction {
+  color: black;
+  width: 964px;
+  height: 58px;
+  background: #FFFF;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: relative;
+
+  border-bottom: 1px solid rgb(240, 238, 238);
+  
+}
+  
+.transaction img {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+
+
+.value {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+

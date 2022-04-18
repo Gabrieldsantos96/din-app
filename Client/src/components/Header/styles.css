@@ -1,0 +1,57 @@
+header {
+
+  background: linear-gradient(120deg, rgba(5, 237, 227) 0%,
+  rgba(100, 95, 251) 100%, rgba(100, 95, 251) 100%);
+  color:white;
+  height: 156px;
+  width:100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+  position: sticky;    
+}
+header span {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_div_left {
+  margin-left: 105px;
+  margin-top: 28px;
+}
+
+.header_div_left span {
+  margin-left: 13px;
+}
+
+.header_div_right {
+  margin-right: 105px;
+  margin-top: 28px;
+}
+
+.header_div_right span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px 16px;
+} 
+
+.avatar-img {
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+.exit-img {
+  cursor: pointer;
+}
